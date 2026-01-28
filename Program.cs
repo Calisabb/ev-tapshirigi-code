@@ -1,4 +1,4 @@
-﻿1. sade ve ya murekkeb. 
+﻿// 1. sade ve ya murekkeb. 
 int n = Convert.ToInt32(Console.ReadLine());
 if (n<=1)
 {
@@ -17,7 +17,7 @@ for (int i = 2; i<=Math.Sqrt(n); i++)
         break;
     }
 }
-2. factorial
+// 2. factorial
 int m = Convert.ToInt32(Console.ReadLine());
 int factorial = 1;
 while (m>0)
@@ -26,7 +26,7 @@ while (m>0)
     m--;
 }
 Console.WriteLine(factorial);
-3. 278 => 2+7+8=17 
+// 3. 278 => 2+7+8=17 
 int k = Convert.ToInt32(Console.ReadLine());
 int sum = 0;
 while (k>0)
